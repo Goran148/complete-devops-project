@@ -29,3 +29,4 @@ jobs:
             - name: Push DockerHub
               run: |
                 docker push goran14/complete-devops-project:${{ env.SHORT_SHA }}
+                
