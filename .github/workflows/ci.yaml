@@ -41,3 +41,4 @@ jobs:
                 git add ./complete-devops-project-time-printer/values.yaml
                 git commit -m "Update image tag to ${{ env.SHORT_SHA }}"
                 git push
+                
