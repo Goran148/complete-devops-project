@@ -9,10 +9,10 @@ spec:
     repoURL: "https://github.com/Goran148/complete-devops-project"
     targetRevision: HEAD
     path: complete-devops-project-time-printer
-    destination:
-      server: "https://kubernetes.default.svc"
-      namespace: default
-    syncPolicy:
-      automated:
-        prune: true
-        selfheal: true
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
