@@ -1,6 +1,6 @@
 image:
   repository: goran14/complete-devops-project
-  tag: latest
+  tag: 7667479
   pullPolicy: IfNotPresent
 
 services:
