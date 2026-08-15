@@ -3,7 +3,7 @@ image:
   tag: ee3ed36
   pullPolicy: IfNotPresent
 
-services:
+service:
   type: ClusterIP
   port: 80801
 
@@ -15,4 +15,3 @@ serviceAccount:
 
 autoscaling:
   enabled: false
-  
